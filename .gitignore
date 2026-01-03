@@ -1,0 +1,3 @@
+# Ignorer les modèles ML
+*.pkl
+CNN-Module/models/
