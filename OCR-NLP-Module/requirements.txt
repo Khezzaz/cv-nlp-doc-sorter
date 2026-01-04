@@ -1,0 +1,29 @@
+# Requirements.txt - Version Corrigée pour Windows
+# Projet Classification Documents Administratifs - Module OCR NLP
+
+# Framework Web API
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# PaddleOCR et dépendances (versions compatibles Windows)
+paddleocr>=2.7.0
+paddlepaddle>=3.0.0  # Version compatible actuelle
+
+# Traitement d'images
+opencv-python==4.8.1.78
+opencv-contrib-python==4.8.1.78
+Pillow>=10.0.0
+
+# Calcul scientifique
+numpy>=1.24.0,<2.0.0
+
+# Validation de données
+pydantic>=2.0.0
+
+# Utilitaires
+python-dateutil>=2.8.0
+requests>=2.31.0
+
+# Logging et monitoring (optionnel)
+loguru>=0.7.0
